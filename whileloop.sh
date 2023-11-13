@@ -2,5 +2,5 @@
 
 while read line
 do
-  echo "$line" >> output.txt
-done
+  echo "$line"
+done < fwd.log
